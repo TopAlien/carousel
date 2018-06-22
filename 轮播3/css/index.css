@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-10-18 08:54:43
+ * @version $Id$
+ */
+* { 
+	/* 初始化CSS reset */
+	margin:0; 
+	padding:0;
+}
+
+body {
+	/* 背景*/
+	background:url(../img/back.png) 0 0 repeat;
+	margin:0 auto;
+	text-align:center;
+}
+img{
+	border:0;
+}
+a{
+	text-decoration:none;
+}
+li{
+	list-style:none;
+}
+/* banner */
+.roll { 
+	position: relative;
+    width:1024px;
+    height:256px;
+    margin: 10px auto 0; 
+}
+.btn{
+	font-size:35px;
+	color:#f40;
+}
+.btn_left {
+    position: absolute;
+    top:100px;
+    left: 1px;
+    z-index: 1;
+}
+.btn_right {
+    position: absolute;
+    top:100px;
+    right: 0;
+    z-index: 1;
+}
+.roll .wrap {
+    width:100%;
+    height:100%; 
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.roll ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.roll li {
+    float: left;
+    width:700px;
+    height:256px;
+    text-align: center;
+}
+
+
